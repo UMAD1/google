@@ -7,15 +7,27 @@
     <link rel="styles" href="style.css">
     <style>
         .body{
-            background: #202124;
+            background-color: #202124;
         }
+        .logo{
+            position: fixed;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -40%);
+        }
+
         .bar{
             position: fixed;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            width: 500px;
+            width: 580px;
             height: 50px;
+            border-radius: 25px;
+            background: #202124;
+            border-style: solid;
+            border-color:#48484d;
+            border-width: 1.5px;
         }
         .buttons{
             position: fixed;
@@ -23,15 +35,32 @@
             left: 50%;
             transform: translate(-50%, -57%);
         }
+        .but{
+            background-color: #303134;
+            border: 1px solid #303134;
+            border-radius: 5px;
+            color: #e8eaed;
+            font-family: arial;
+            font-size: 15px;
+            margin: 10px 5px;
+            padding: 0 15px;
+            line-height: 30px;
+            height: 35px;
+            min-width: 55px;
+            text-align: center;
+            cursor: pointer;
+        }
     </style>
     <body style="background: #202124;">
-        <div class="main" >
+        <div class="main">
+            <a href="image.html">Image</a>
+            <a href="advanced.html">Advanced</a>
+            <img class="logo"src="googlelogo_light_color_272x92dp.png" alt="Google">
             <input class="bar" type="text">
             <div class="buttons">
-                <button type="button" class="btn btn-secondary">Google Search</button>
-                <button type="button" class="btn btn-secondary">Im Feeling Lucky</button>
+                <button type="button" class="but">Google Search</button>
+                <button type="button" class="but">Im Feeling Lucky</button>
             </div>
         </div>
-        <div> </div>
     </body>
 </html>
