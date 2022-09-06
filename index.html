@@ -1,162 +1,45 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+       <title>Google</title>
+       <link rel="shortcut icon" href="google.png" type="image/x-icon">
     </head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="styles" href="style.css">
-    <style>
-        .body{
-            background-color: #202124;
-        }
-        .logo{
-            position: fixed;
-            top: 40%;
-            left: 50%;
-            transform: translate(-50%, -40%);
-        }
-
-        .bar{
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 600px;
-            height: 50px;
-            border-radius: 25px;
-            background: #202124;
-            border-style: solid;
-            border-color:#5f6368;
-            border-width: 1.5px;
-            padding: 12px 50px;
-            box-sizing: border-box;
-        }
-        .buttons{
-            position: fixed;
-            top: 57%;
-            left: 50%;
-            transform: translate(-50%, -57%);
-            padding: 10px;
-        }
-        .but{
-            background-color: #303134;
-            border: 1px solid #303134;
-            border-radius: 5px;
-            color: #e8eaed;
-            font-family: arial;
-            font-size: 15px;
-            margin: 10px 5px;
-            padding: 0 15px;
-            line-height: 30px;
-            height: 35px;
-            min-width: 55px;
-            text-align: center;
-            cursor: pointer;
-        }
-        #topop{
-            padding-right: 20px;
-            padding-top: 10px;
-            text-align-last: right;
-        }
-        .topr{
-            color: #bdc1c6;
-            font-family: arial;
-            font-size: 15px;
-            text-decoration: none;
-        }
-        h1{
-            position: fixed;
-            color: #bdc1c6;
-            top: 62%;
-            left: 48%;
-            transform: translate(-48%, -62%);
-            size: 15px;
-            font-family: arial;
-            font-size: 15px;
-        }
-        .lango{            
-            position: fixed;
-            top: 62%;
-            left: 53%;
-            transform: translate(-53%, -62%);
-            size: 15px;
-            font-family: arial;
-            font-size: 15px;
-            color:#8ab4f8;
-            text-decoration: none;
-        }
-        .lango:hover{
-            text-decoration: underline;
-        }
-        .topr:hover{
-            text-decoration: underline;
-            color: #bdc1c6;
-        }
-        #loopi{
-            position: fixed;
-            top: 50%;
-            left: 35.5%;
-            transform: translate(-35.5%, -50%);
-            width: 1%;
-            height: auto;
-        }
-        .down{
-            position: fixed;
-            top: 50%;
-            left: 35.5%;
-            border-bottom: 50px;
-            border-color: #8ab4f8;
-        }
-        .dl{
-
-            position: fixed;
-            top: 96%;
-            left: 1%;
-
-
-        }
-        .dr{            
-            position: fixed;
-            top: 96%;
-            left: 90%;
-        }
-        .dre{
-            color: #999da2;
-            font-family: arial;
-            font-size: 15px;
-            text-decoration: none;
-            padding: 15px;
-        }
-        .dd{
-            background-color: #171717;
-            background-size: 300px 100px
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
     <body style="background: #202124;">
+        <div id="topop">
+            <a class="topr" href="advanced.html">Advanced</a>
+            <a class="topr" href="image.html">Image</a>
+        </div>
+        <div class="logo">
+            <img src="googlelogo_light_color_272x92dp.png" alt="Google">
+        </div>
         <div class="main">
-            <div id="topop">
-                <a class="topr" href="image.html">Image</a>
-                <a class="topr" href="advanced.html">Advanced</a>
-            </div>
-            <img class="logo"src="googlelogo_light_color_272x92dp.png" alt="Google">
-            <input class="bar" type="text">
-            <img id="loopi"src="search.png" alt="">
-            <h1>Google offered in:</h1>
-            <a class="lango"href="https://www.google.fr">Français</a>
-            <div class="buttons">
-                <button type="button" class="but">Google Search</button>
-                <button type="button" class="but">Im Feeling Lucky</button>
-            </div class="dd">
-            <div class="dl">
-                <a class ="dre" href="https://about.google/?utm_source=google-TN&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a>
-                <a class ="dre" href="https://ads.google.com/intl/en_tn/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
-                <a class ="dre" href="https://www.google.fr/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Business</a>
-                <a class ="dre" href="https://www.google.com/search/howsearchworks/?fg=1">How Search works</a>
-            </div>
-            <div class="dr">
-                <a class ="dre" href="https://policies.google.com/privacy?hl=en-TN&fg=1">Privacy</a>
-                <a class ="dre" href="https://policies.google.com/terms?hl=en-TN&fg=1">Terms</a>
-            </div>
+            <form action="https://www.google.com/search">
+                <div class="sbox">
+                    <input type="text" name="q" class="bar">
+                    <img id="loopi"src="search.png" alt="">
+                </div>
+                <div class="buttons">
+                    <input type="submit" value="Google Search" class="but">
+                    <input type="submit" value="Im Feeling Lucky" class="but">
+                </div>
+            </form>
+        </div>
+        <div class="also">
+            <h1 style="position: fixed;">Google offered in:<a class="lango"href="https://www.google.fr">Français</a></h1>
+        </div>
+        <div class="d2">            
+            <table>
+                <thead>
+                    <th><a class ="dre" href="https://about.google/?utm_source=google-TN&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a></th>
+                    <th><a class ="dre" href="https://ads.google.com/intl/en/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></th>
+                    <th><a class ="dre" href="https://www.google.com/intl/en/services/#?modal_active=none">Business</a></th>
+                    <th><a class ="dre" style="border-right: 100px;" href="https://www.google.com/search/howsearchworks/?fg=1">How Search works</a></th>
+                    <th style="text-indent: 1240px;"><a class ="dre" href="https://policies.google.com/privacy?hl=en-TN&fg=1">Privacy</a></th>
+                    <th><a class ="dre" href="https://policies.google.com/terms?hl=en-TN&fg=1">Terms</a></th>
+                </thead>
+            </table>
         </div>
     </body>
 </html>
