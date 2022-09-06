@@ -21,19 +21,22 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            width: 580px;
+            width: 600px;
             height: 50px;
             border-radius: 25px;
             background: #202124;
             border-style: solid;
-            border-color:#48484d;
+            border-color:#5f6368;
             border-width: 1.5px;
+            padding: 12px 50px;
+            box-sizing: border-box;
         }
         .buttons{
             position: fixed;
             top: 57%;
             left: 50%;
             transform: translate(-50%, -57%);
+            padding: 10px;
         }
         .but{
             background-color: #303134;
@@ -50,13 +53,64 @@
             text-align: center;
             cursor: pointer;
         }
+        #topop{
+            padding-right: 70px;
+            padding-top: 10px;
+            text-align-last: right;
+        }
+        .topr{
+            color: #bdc1c6;
+            font-family: arial;
+            font-size: 15px;
+            text-decoration: none;
+        }
+        h1{
+            position: fixed;
+            color: #bdc1c6;
+            top: 62%;
+            left: 44%;
+            transform: translate(-44%, -62%);
+            size: 15px;
+            font-family: arial;
+            font-size: 15px;
+        }
+        .lango{            
+            position: fixed;
+            top: 62%;
+            left: 50%;
+            transform: translate(-50%, -62%);
+            size: 15px;
+            font-family: arial;
+            font-size: 15px;
+            text-decoration: none;
+        }
+        .lango:hover{
+            text-decoration: underline;
+        }
+        .topr:hover{
+            text-decoration: underline;
+            color: #bdc1c6;
+        }
+        #loopi{
+            position: fixed;
+            top: 50%;
+            left: 35.5%;
+            transform: translate(-35.5%, -50%);
+            width: 1%;
+            height: auto;
+        }
     </style>
     <body style="background: #202124;">
         <div class="main">
-            <a href="image.html">Image</a>
-            <a href="advanced.html">Advanced</a>
+            <div id="topop">
+                <a class="topr" href="image.html">Image</a>
+                <a class="topr" href="advanced.html">Advanced</a>
+            </div>
             <img class="logo"src="googlelogo_light_color_272x92dp.png" alt="Google">
             <input class="bar" type="text">
+            <img id="loopi"src="search.png" alt="">
+            <h1>Google offered in:</h1>
+            <a class="lango"href="https://www.google.fr">Français</a>
             <div class="buttons">
                 <button type="button" class="but">Google Search</button>
                 <button type="button" class="but">Im Feeling Lucky</button>
