@@ -1,5 +1,8 @@
 #bo{
     background: #202124;
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden
 }
 .topr{
     color: #ffffff;
@@ -95,6 +98,7 @@
     align-items: center;
 }
 .buttons{
+    position : relative;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -112,7 +116,7 @@
         text-decoration: underline;
 }
 #he{
-    position: fixed;
+    position: relative; 
     color: #bdc1c6;
     size: 15px;
     font-family: arial;
