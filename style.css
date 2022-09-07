@@ -8,6 +8,10 @@
     padding-right: 15px;
     text-decoration: none;
 }
+.topr:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
 #dots{
     width: 35px;
     padding-right: 15px;
