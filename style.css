@@ -115,7 +115,6 @@
     font-size: 15px;
 }
 #logo{
-    margin-bottom: 15px;
     width: 300px;
     height: auto;
 }
@@ -135,4 +134,12 @@
     position: relative;
     bottom: 3px;
     right: 585px;
+}
+#images{
+    color: #3480fa;
+    font-size: 18px;
+    width: 5px;
+    position: relative;
+    bottom: 25px;
+    left: 240px;
 }
