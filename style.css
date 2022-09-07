@@ -1,34 +1,70 @@
-body{
+#bo{
     background: #202124;
 }
-.main{            
-    position: fixed;
-    top: 50%;
-    left: 50%;
+.topr{
+    color: #ffffff;
+    font-family: arial;
+    font-size: 15px;
+    padding-right: 15px;
+    text-decoration: none;
 }
-.logo{
-    position: fixed;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -30%);
+#dots{
+    width: 35px;
+    padding-right: 15px;
 }
-.also{
+#avatar{
+    width: 50px;
+    padding-right: 15px;
+}
+#a1{
+    text-align: right;
+    margin-top: 5px;
+}
+#d2{
+    background-color: #171717;
+    height: 50px;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.dre{
+    color: #999da2;
+    font-family: arial;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 15px;
+}
+.dre:hover{ 
+    color: #999da2;
+    text-decoration: underline;
+}
+
+.but{
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 5px;
     color: #e8eaed;
     font-family: arial;
     font-size: 15px;
+    margin: 10px 7px;
     padding: 0 15px;
+    line-height: 30px;
+    height: 40px;
+    min-width: 55px;
     text-align: center;
-    position: fixed;
-    top: 53%;
-    left: 44%;
+    cursor: pointer;
+    margin-bottom: 30px;
 }
 .bar{
+    margin-bottom: 15px;
     width: 600px;
     height: 50px;
     border-radius: 25px;
     background: #202124;
     border-style: solid;
-    border-color:#5f6368;
+    border-color: #5f6368;
     border-width: 1.5px;
     padding: 12px 50px;
     box-sizing: border-box;
@@ -42,99 +78,61 @@ body{
     border-color: #303134;
     background-color: #303134;
 }
-.sbox{
-    position: fixed;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -40%);
+.main{
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
 }
 .buttons{
-    position: fixed;
-    top: 45%;
-    left: 42%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
-.but{
-    background-color: #303134;
-    border: 1px solid #303134;
-    border-radius: 5px;
+.also{
     color: #e8eaed;
     font-family: arial;
     font-size: 15px;
-    margin: 10px 5px;
     padding: 0 15px;
-    line-height: 30px;
-    height: 40px;
-    min-width: 55px;
+    size: 15px;
+    font-family: arial;
     text-align: center;
-    cursor: pointer;
 }
-#topop{
-    padding-top: 10px;
-    padding-right: 10px;
-    text-align-last: right;
+.also:hover{
+        text-decoration: underline;
 }
-h1{
+#he{
     position: fixed;
     color: #bdc1c6;
     size: 15px;
     font-family: arial;
     font-size: 15px;
 }
-.lango{            
-    position: fixed;
+#logo{
+    margin-bottom: 15px;
+    width: 300px;
+    height: auto;
+}
+#fre{
     size: 15px;
     font-family: arial;
     font-size: 15px;
     color:#8ab4f8;
     text-decoration: none;
+    margin-left: 10px;
 }
-.lango:hover{
+#fre:hover{
     text-decoration: underline;
 }
-.topr{
-    color: #bdc1c6;
-    font-family: arial;
-    font-size: 15px;
-    padding-right: 15px;
-    text-decoration: none;
-}
-.topr:hover{
-    text-decoration: underline;
-    color: #bdc1c6;
-}
-#loopi{
-    position: fixed;
-    width: 3%;
-    height: auto;
-    top: 41%;
-    left: 5%;
-    transform: translate(-50%, -30%);
-}
-.dre{
-    color: #999da2;
-    font-family: arial;
-    font-size: 15px;
-    text-decoration: none;
-    padding: 15px;
-}
-.dre:hover{ 
-    color: #999da2;
-    text-decoration: underline;
-}
-.d2{
-    background-color: #171717;
-    height: 50px;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-#dots{
-    width: 2%;
-    padding-right: 15px;
-}
-#avatar{
-    width: 3%;
-    padding-right: 15px;
+#search{
+    width: 15px;
+    position: relative;
+    bottom: 3px;
+    right: 585px;
 }
