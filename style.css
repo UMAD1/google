@@ -80,11 +80,7 @@
     box-sizing: border-box;
     color: #ffffff;
 }
-.bar:hover{
-    border-color: #303134;
-    background-color: #303134;
-}
-.bar:active{
+.bar:hover, .bar:active{
     border-color: #303134;
     background-color: #303134;
 }
